@@ -1,0 +1,65 @@
+body{
+    background-color: bisque;
+    font-size: 1.5rem;
+}
+
+.container{
+    border: 2px solid black;
+    margin: 50px;
+    padding: 30px;
+    background-color: aqua;
+    border-radius: 18px;
+}
+.cel{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 8px;
+}
+.farh{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 8px;
+}
+button{
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px;
+    color: white;
+    background-color: rgb(219, 104, 21);
+    box-shadow: 5px 5px 5px grey;
+}
+button:hover{
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px;
+    color: white;
+    background-color: rgb(112, 55, 14);
+    box-shadow: 5px 5px 5px grey;
+}
+input{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 9px;
+}
+.text{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    animation: color 1s infinite;
+}
+@keyframes color{
+    0%{color:orange}
+    10%{color:rgb(251, 255, 0)}
+    20%{color:rgb(255, 0, 0)}
+    30%{color:rgb(30, 255, 0)}
+    40%{color:rgb(0, 208, 255)}
+    50%{color:rgb(136, 0, 255)}
+    60%{color:rgb(255, 0, 170)}
+    80%{color:rgb(255, 0, 0)}
+    100%{color:rgb(157, 0, 255)}
+}
